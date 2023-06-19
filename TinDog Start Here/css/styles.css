@@ -1,0 +1,195 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+
+}
+
+h2 {
+    font-family: 'Lilita One', cursive;
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* navbar - font =======================================================*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+
+
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    /* font-weight: ;
+    font-family: ; */
+}
+
+.download-button {
+    margin: 5% 5% 5% 0;
+}
+
+.phone-img {
+    width: 60%;
+    transform: rotate(22deg);
+    position: absolute;
+    margin-left: 21%;
+
+
+}
+
+/* features */
+
+#features {
+    padding: 7% 14%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-boxes {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials= ======================================================*/
+
+#testimonials {
+
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.testimonials-img {
+    width: 15%;
+    border-radius: 100%;
+    padding: 2% 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 18%;
+    padding: 2% 2% 2%;
+}
+
+/* ==================card ==========================================*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 3%;
+
+}
+
+/* ==================media query================ */
+
+@media (max-width:992px) {
+    .phone-img {
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* call to action div ========================================================*/
+#cta {
+    padding: 4% 8%;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    background-color: #ff4c68;
+
+
+    height: 500px;
+}
+
+.cta-div-text {
+
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 2;
+}
+
+/* footer====================================================== */
+
+#footer {
+    height: 300px;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+
+}
+
+.footer-img {
+    margin: 20px 10px;
+    padding-bottom: 10px;
+    color: #ff4c68;
+
+}
