@@ -27,12 +27,26 @@ p {
 
 #title {
     background-color: #ff4c68;
-    color: #fff;
+   
 
 }
+/* ======================================container==================== */
+
 
 .container-fluid {
     padding: 3% 15% 7%;
+}
+
+/*============================================= section ===*/
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+   
+
+}
+
+.white-section{
+    background-color: #fff;
 }
 
 /* navbar - font =======================================================*/
@@ -78,7 +92,7 @@ p {
 
 #features {
     padding: 7% 14%;
-    background-color: #fff;
+  
     position: relative;
     z-index: 1;
 }
@@ -104,7 +118,7 @@ p {
     text-align: center;
     font-family: 'Montserrat';
     color: #fff;
-    background-color: #ff4c68;
+    
 }
 
 .testimonials-img {
@@ -118,7 +132,7 @@ p {
 }
 
 #press {
-    background-color: #ff4c68;
+    
     text-align: center;
     padding-bottom: 3%;
 }
@@ -160,7 +174,7 @@ p {
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
-    background-color: #ff4c68;
+   
 
 
     height: 500px;
